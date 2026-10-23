@@ -3,9 +3,12 @@
 # This file licensed under the Apache License v2.0 with LLVM Exceptions.
 # See https://llvm.org/LICENSE.txt for license information.
 # SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
-#
+## (c) Copyright 2023 Advanced Micro Devices, Inc.
 # 
-##===----------------------------------------------------------------------===##
+#===----------------------------------------------------------------------===//
+# Modified in 2026 
+# Original source: https://github.com/Xilinx/mlir-aie/tree/v1.3.2/programming_examples/basic/matrix_multiplication/whole_array/Makefile
+
 srcdir := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 subdir=whole_array
 targetname=whole_array

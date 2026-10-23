@@ -48,8 +48,8 @@ else
     export NPU2=0
 fi
 
-#sudo apt-get update
-#sudo DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential clang clang-14 lld lld-14 cmake ninja-build python3-venv python3-pip uuid-dev
+sudo apt-get update
+sudo DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential clang clang-14 lld lld-14 cmake ninja-build python3-venv python3-pip uuid-dev
 
 if hash python3.12; then
    echo "Using python version `python3.12 --version`"

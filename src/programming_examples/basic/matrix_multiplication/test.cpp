@@ -3,8 +3,16 @@
 // This file is licensed under the Apache License v2.0 with LLVM Exceptions.
 // See https://llvm.org/LICENSE.txt for license information.
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+// 
+// (c) Copyright 2023 Advanced Micro Devices, Inc.
 //
 //===----------------------------------------------------------------------===//
+// Modified in 2026 
+// Original source: https://github.com/Xilinx/mlir-aie/tree/v1.3.2/programming_examples/basic/matrix_multiplication/test.cpp
+// Modified for the ozaki scheme-based DGEMM under programming_examples/basic/matrix_multiplication/
+// Verification has been extended to use emulated high-precision using MPFR library
+// evaluation of Ozaki scheme-based DGEMM with AOCL-BLIS baseline and the naive DGEMM implementation
+// Accuracy verification againt MPFR lib-based high-precision emulated results
 
 #include "cxxopts.hpp"
 #include <bits/stdc++.h>

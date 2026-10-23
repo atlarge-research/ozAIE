@@ -7,6 +7,9 @@
 # Copyright (C) 2025, Advanced Micro Devices, Inc.
 # 
 ##===----------------------------------------------------------------------===##
+# Modified in 2026 
+# Original source: https://github.com/Xilinx/mlir-aie/tree/v1.3.2/programming_examples/basic/matrix_multiplication/Makefile
+
 srcdir := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 subdir=ozaie
 targetname=oztest

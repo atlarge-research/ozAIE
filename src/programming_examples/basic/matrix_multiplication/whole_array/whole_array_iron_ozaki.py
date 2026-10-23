@@ -3,7 +3,11 @@
 # See https://llvm.org/LICENSE.txt for license information.
 # SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 #
-# (c) Copyright 2024-2025 Advanced Micro Devices, Inc. or its affiliates
+# # (c) Copyright 2024-2025 Advanced Micro Devices, Inc.
+# ------------------------------------------------------------------------------------
+# Modified in 2026 
+# Original source: https://github.com/Xilinx/mlir-aie/tree/v1.3.2/programming_examples/basic/matrix_multiplication/whole_array/whole_array_iron.py
+
 import argparse
 import numpy as np
 import math

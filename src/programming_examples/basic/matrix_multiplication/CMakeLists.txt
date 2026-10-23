@@ -8,6 +8,10 @@
 # -DXRT_INC_DIR: Full path to src/runtime_src/core/include in XRT cloned repo
 # -DXRT_LIB_DIR: Path to xrt_coreutil.lib
 # -DTARGET_NAME: Target name to be built
+#----------------------------------------------------------------------------------------
+# Modified in 2026.
+# Original source: https://github.com/Xilinx/mlir-aie/tree/v1.3.2/programming_examples/basic/matrix_multiplication/CMakeLists.txt
+
 
 # cmake needs this line
 cmake_minimum_required(VERSION 3.30)

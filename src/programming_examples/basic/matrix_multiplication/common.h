@@ -1,15 +1,15 @@
-//===- matrix_multiplication.h ----------------------------000---*- C++ -*-===//
+//===- common.h ----------------------------000---*- C++ -*-===//
 //
 // This file is licensed under the Apache License v2.0 with LLVM Exceptions.
 // See https://llvm.org/LICENSE.txt for license information.
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
-//
-// Copyright (C) 2024, Advanced Micro Devices, Inc.
-//
+// (c) Copyright 2024 Advanced Micro Devices, Inc.
 //===----------------------------------------------------------------------===//
-
-// This file contains common helper functions for the matrix multiplication
-// host code, such as verifying and printing matrices.
+// Modified in 2026 
+// Original source: https://github.com/Xilinx/mlir-aie/tree/v1.3.2/programming_examples/basic/matrix_multiplication/common.h
+// Modified for the ozaki scheme-based DGEMM under programming_examples/basic/matrix_multiplication/
+// Verification has been extended to use emulated high-precision using MPFR library
+// additional command-line parameters have been added for evaluation of Ozaki scheme-based DGEMM
 
 #ifndef MATRIX_MULTIPLICATION_H
 #define MATRIX_MULTIPLICATION_H
