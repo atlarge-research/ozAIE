@@ -1,0 +1,11 @@
+{
+  "TestsType": 2,
+  "pinBLISThreadsToCore": false,
+  "resume": false,
+  "ssh_config_dir": "C:\\cygwin64\\home\\user\\.ssh",
+  "mlir_repo_dir": "~/ozAIE/mlir-aie-v1.3.2",
+  "l_mant": 53,
+  "min_K": 7,
+  "max_K": 11,
+  "matlab_bin": "c:\\Program Files\\MATLAB\\R2023b\\bin\\matlab.exe"
+}
