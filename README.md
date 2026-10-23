@@ -65,9 +65,15 @@ Run the installation script at the repository root:
 
 The installation script:
 
-Installs MLIR-AIE v1.3.2 and its dependencies. Installs the library headers and configures the relevant environment variables.
+Installs MLIR-AIE v1.3.2 and its dependencies. Installs the library headers, source files and prepares a environment setup script to configures the relevant environment variables. 
 
 Library Usage
+
+The generated environment setup script should be run to activate the virtual environment before usage:
+```bash
+source ozaie_env_setup.sh
+```
+The above script can added to .bashrc (etc) to auto-run on login.
 
 After installation, include the Oz-AIE header in your C++ source and use the library for DGEMM. A minimum example is given under the "example" directory. The CMakeLists.txt under this folder shows how to refer to the headers and link to the CMake compilation hierarchy of the library to compile the client-side cpp. The necessary path environment variables are created by the above-mentioned installation script. 
 ```C++
