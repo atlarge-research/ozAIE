@@ -24,7 +24,7 @@ The executable experiment uses SSH to connect remotely to the XDNA1 and XDNA2 pl
   "pinBLISThreadsToCore" : false,
   "resume": false,
   "ssh_config_dir" : "C:\\home\\user\\.ssh",
-  "mlir_repo_dir": "~/mlir-aie-v1.3.2",
+  "mlir_repo_dir": "~/ozAIE/mlir-aie-v1.3.2",
   "l_mant": 53,
   "min_K": 128,
   "max_K": 2048,
@@ -41,7 +41,7 @@ The table below shows the property values that can be set in the above JSON file
 | `pinBLISThreadsToCore` | Specifies whether to pin BLIS threads to physical cores. Only applicable when `TestsType` is set to `1`. |
 | `resume` | Indicates whether to resume a previous run or start a new run. |
 | `ssh_config_dir` | Specifies the path to the directory containing SSH configuration files on the current machine. |
-| `mlir_repo_dir` | Specifies the path to the remote MLIR repository on the XDNA1 and XDNA2 machines. |
+| `mlir_repo_dir` | Specifies the path to the remote MLIR-AIE folder on the XDNA1 and XDNA2 machines under the cloned Oz-AIE repo folder |
 | `l_mant` | Specifies the mantissa to be covered (\(l_m\)) in the performance tests. Only applicable when `TestsType` is set to `1`. |
 | `min_K` | Defines the minimum value of the matrix dimension \(K\). Should be a power of 2. |
 | `max_K` | Defines the maximum value of the matrix dimension \(K\). Should be a power of 2. |
