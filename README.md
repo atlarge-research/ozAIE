@@ -4,11 +4,13 @@ Oz-AIE is a reusable double-precision general matrix multiplication (DGEMM) emul
 
 This repository contains the library installation scripts, NPU instruction binaries, and experimental workflow used to reproduce the accuracy and performance results. The experiments measure numerical accuracy, execution time, and hardware cycle counts. MATLAB scripts are provided to generate plots from collected measurements; the experiment executable can also generate plots directly.
 
-Compilation environment:	GCC 13.3.0, XRT 2.26.0, MLIR-AIE v1.3.2, MPFR 4.2.2, AOCL-BLIS 5.0.0
-Experiment build environment:	Visual Studio Community 2022 (version 17.14 or later), .NET 8.0 SDK
-Plot generation:	MATLAB R2023b
-Runtime environment:	Windows 11 and Ubuntu 24.04.3 (Linux kernel 6.11 or later)
-Metrics:	Numerical accuracy, execution time, and hardware cycles on AIE
+| Category | Details |
+|---|---|
+| Compilation Environment | GCC 13.3.0, XRT 2.26.0, MLIR-AIE v1.3.2, MPFR 4.2.2, AOCL-BLIS 5.0.0 |
+| Experiment Build Environment | Visual Studio Community 2022 (version 17.14 or later), .NET 8.0 SDK |
+| Plot Generation | MATLAB R2023b |
+| Runtime Environment | Windows 11 and Ubuntu 24.04.3 (Linux kernel 6.11 or later) |
+| Metrics | Numerical accuracy, execution time, and hardware cycles on AIE |
 
 
 Oz-AIE provides a reusable DGEMM library for AMD Ryzen processors equipped with XDNA1 or XDNA2 AI Engine architecture.

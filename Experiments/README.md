@@ -1,9 +1,8 @@
-Experiment and Plotting Dependencies
+Experiment and Plotting Dependencies:
 Windows 11
 Visual Studio Community 2022, version 17.14 or later
 .NET 8.0 SDK
 MATLAB R2023b
-Getting Started
 
 To collect measurements for the accuracy and performance tests, the following libraries should be installed.
 MPFR 4.2.2 
@@ -49,12 +48,13 @@ The table below shows the property values that can be set in the above JSON file
 | `hostname_xdna1` | Specifies the hostname or network alias of the XDNA1 node as defined in the SSH config file. |
 | `hostname_xdna2` | Specifies the hostname or network alias of the XDNA2 node as defined in the SSH config file. |
 | `matlab_bin` | Specifies the full path to the MATLAB executable. |
-```
+
 
 To run the particular measurements (i.e, accuracy, performance or cycles) configured in the JSON file:
 
+```Windows
 C:\> run_measurements.bat
-
+```
 
 Once the batch file has completed, it will invoke MATLAB to generate the relevant plots. A data file with the .dat extension will also be available in the Experiments/measurements directory, containing the measurement data used for plot generation. The plots PDFs and PNGs will be automatically saved to the Experiments/plots directory. 
 
